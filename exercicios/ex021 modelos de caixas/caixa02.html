@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            background-color: lightslategrey;
+            font-family: Arial, Helvetica, sans-serif;
+            margin:0;
+        }
+        header{
+            background-color: white;
+            border-radius: 5px;
+            padding: 5px;
+            margin:10px;
+            border-radius: 10px 10px 0px 0px;
+        }
+        nav{
+            background-color: blue;
+            text-align: center;
+            padding: 2px; 
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+            border-radius: 3px;
+            
+        }
+        nav > a{
+            color: white;
+            margin-right: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        section > p{
+            font-weight: bold;
+            background-color: rgb(146, 145, 145);
+            text-align: center;
+            font-size: 30px;
+            padding: 5px;
+            border-radius: 3px;
+            margin-top: 15px;
+        }
+
+        main{
+            background-color: white;
+            padding: 5px;
+            margin:10px;
+
+            border-radius: 10px 10px 0px 0px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+        }
+        article{
+            background-color: lightgray;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+            border-radius: 3px;
+        }
+        article > aside{
+            background-color: rgb(146, 145, 145);
+            border-radius: 3px;
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            margin:0px;
+            padding: 1px;
+        }
+        footer > p{
+            margin: 0%;
+        }
+        .bola{
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section>
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, ipsum, consequatur reiciendis similique dolores provident minima illo ab vitae nihil enim quidem mollitia delectus sint repellendus, nesciunt perspiciatis reprehenderit? Harum.</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Denvolvido por Vinicius Borges</p>
+    </footer>
+    <div class="bola"></div>
+    
+</body>
+</html>
